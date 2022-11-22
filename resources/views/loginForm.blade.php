@@ -4,10 +4,11 @@
 
 @section('main_content')
 <form action="{{ route('loginCheck') }}" method="POST">
+    @csrf
     <label>Логин:</label><br>
-    <input type="text"><br>
+    <input type="text" name="login"><br>
     <label>Пароль:</label><br>
-    <input type="password"><br>
+    <input type="password" name="password"><br>
     <input type="submit">
 </form>
 @endsection

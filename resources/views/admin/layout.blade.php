@@ -22,7 +22,7 @@
             <li class="nav-item"><a href="/record" class="nav-link @yield('record_active')">Запись на прием</a></li>
             <li class="nav-item"><a href="/about" class="nav-link @yield('about_active')">О нас</a></li>
             <li class="nav-item"><a href="/price" class="nav-link @yield('price_active')">Прайс</a></li>
-            <li class="nav-item"><a href="{{ route('home') }}" class="nav-link @yield('login_active')">Вход (для сотрудников)</a></li>
+            <li class="nav-item"><a href="/loginForm" class="nav-link @yield('login_active')">Вход (для сотрудников)</a></li>
         </ul>
     </header>
 </div>

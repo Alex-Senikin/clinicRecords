@@ -1,0 +1,2 @@
+@extends('employee.layout')
+@csrf
